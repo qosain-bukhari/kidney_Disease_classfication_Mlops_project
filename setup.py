@@ -2,11 +2,11 @@ import  setuptools
 with open("README.md", "r", encoding="utf-8") as f:
     long_description = f.read()
 
-__version__ = "0.0.0"
+__version__ = "0.0.1"
 
 REPO_URL = "kidney_Disease_classfication_Mlops_project"
 AUTHOR = "qosain-bukhari"
-SRC_REPO = "kidney_disease_classification"
+SRC_REPO = "Cnn_classification"
 AUTHOR_EMAIL = "bukhariqosain824@gmail.com"
 
 setuptools.setup(
