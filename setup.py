@@ -6,7 +6,7 @@ __version__ = "0.0.1"
 
 REPO_URL = "kidney_Disease_classfication_Mlops_project"
 AUTHOR = "qosain-bukhari"
-SRC_REPO = "Cnn_classification"
+SRC_REPO = "cnnClassification"
 AUTHOR_EMAIL = "bukhariqosain824@gmail.com"
 
 setuptools.setup(

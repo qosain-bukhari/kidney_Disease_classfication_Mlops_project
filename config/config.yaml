@@ -1,0 +1,12 @@
+# Root folder for storing artifacts of the pipeline
+artifacts_root: artifacts
+
+# Data ingestion configuration
+data_ingestion:
+  root_dir: artifacts/data_ingestion    # Where processed data will be saved
+  tumor_dir: data/tumor                 # Path to local tumor CT scan images
+  normal_dir: data/normal               # Path to local normal CT scan images
+  train_dir: artifacts/data_ingestion/train   # Train dataset directory
+  test_dir: artifacts/data_ingestion/test     # Test dataset directory
+  test_size: 0.2                        # Fraction of data for testing
+  
